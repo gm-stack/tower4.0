@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'tower' target in the 'tower' project
+//
+
+#include "SDL.h"
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
